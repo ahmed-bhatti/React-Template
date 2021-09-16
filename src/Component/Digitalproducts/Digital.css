@@ -1,0 +1,72 @@
+.Head-section{
+    background-image: url("/src/Asesst/man-4.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.learn{
+    padding-top: 100px;
+}
+.Digital{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 70px;
+}
+.started{
+    padding: 15px 25px;
+    border: 2px solid #E9204F;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.started:hover{
+    color: white;
+    background-color:#E9204F;
+}
+.setting{
+    height: 340px;
+    width:370px;
+    background-color:#E9204f ;
+    color: white;
+}
+.space{
+    margin-right: 20px;
+}
+.icon i{
+    font-size: 50px;
+    padding-top: 40px;
+    padding-left: 40px;
+    color:white;
+}
+.Future{
+    font-size: 5px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.Future:after{
+    content: "";
+    display: block;
+    top: 0;
+    width: 50px;
+    height: 3px;
+    background: white;
+}
+
+.text{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+@media (max-width:768px){
+    .display{
+
+        display: flex;
+        flex-direction: column;
+    }
+    .Digital{
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 70px;
+    }
+    
+}

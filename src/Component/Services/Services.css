@@ -1,0 +1,56 @@
+.Ser{
+    text-align: center;
+    padding-left: 200px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.icon i{
+    font-size: 50px;
+    color:#E9204f ;
+    
+    text-align: center;
+    margin-left: 50px;
+}
+.Heading-1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.border{
+
+    
+    height: 290px;
+    margin-bottom: 40px;
+}
+.margin-1{
+    margin-top: 200px;
+}
+.border:hover{
+    border-bottom: 3px solid #E9204f;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.5) ;
+}
+@media (max-width:768px){
+
+    .Ser h1{
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        width: 250px;
+        
+        
+    }
+    .Ser{
+        padding-right: 50px;
+        text-align: center;
+        margin-left: -100px;
+        text-align: left;
+        
+    }
+   .margin-1{
+       margin-top: 1000px;
+   }
+
+}
+
+

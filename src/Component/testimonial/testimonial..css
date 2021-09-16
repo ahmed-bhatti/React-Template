@@ -1,0 +1,63 @@
+.center{
+    text-align: center;
+    color:#E9204f ;
+    padding-top: 30px;
+}
+.Trusting h1{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.top{
+    margin-top: 150px;
+    background-color: black;
+    padding-bottom: 100px;
+}
+.radius{
+    border-radius: 50%;
+    height: 80px;
+    width:70px;
+}
+.ben h4{
+    color: white;
+}
+.ben p{
+    font-size: 17px;
+    color:#E9204f;
+    
+}
+.Icon{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.Icon span i {
+    color: goldenrod;
+    padding-right: 5px;
+    font-size: 18px;
+}
+.text-1{
+    padding-left: 20px;
+    width: 350px;
+    padding-bottom: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+.pad{
+    padding-left: 20px;
+}
+.pad{
+    padding-bottom: 40px;
+    
+}
+.color-1{
+    background-color:#191919 ;
+    width: 370px;
+    
+
+}
+.color-1:hover{
+    border: 2px solid #E9204f;
+}

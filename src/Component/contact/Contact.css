@@ -1,0 +1,93 @@
+.contact{
+    padding-top: 40px;
+    background-color:#101010;
+    margin-top: 100px;
+    padding-bottom: 20px;
+
+}
+.heading-3 h1{
+    color:white;
+    font-size: 40px;
+    
+}
+.heading-3 p{
+    color: #E9204F;
+    font-size: 18px;
+}
+.text-p p{
+    color:white;
+}
+.icons i{
+    font-size: 25px;
+    padding-right: 20px;
+    color: white;
+    border-radius: 100%;
+    border: 2px solid #E9204F;
+    padding:10px;
+    margin-right:20px
+}
+.icons i:hover{
+    color: #E9204F;
+    transform: translateY(20px);
+
+}
+.form input{
+    background-color: transparent;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    color: white;
+    padding-bottom: 20px;
+    width: 300px;
+}
+
+
+ input:focus{
+    outline: none;
+}
+.form-9 textarea{
+    background-color: transparent;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    color: white;
+    padding-bottom: 20px;
+    width: 650px; 
+    margin-left: 20px;
+    
+}
+.form-9{
+    margin-top: 30px;
+}
+.form-8 input{
+    background-color: transparent;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    color: white;
+    padding-bottom: 20px;
+    width: 650px;
+    margin-left: 20px;
+}
+.form-8{
+    margin-top: 30px;
+}
+
+.started-0{
+    padding: 12px 20px;
+    border: 2px solid #E9204F;
+    font-size: 18px;
+    
+    background-color:#E9204f ;
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.started-0:hover{
+    color: #E9204f;
+    background-color:white;
+}
+textarea:focus{
+    outline: none;
+}

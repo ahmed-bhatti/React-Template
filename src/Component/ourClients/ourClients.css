@@ -1,0 +1,77 @@
+.heading-1 h1{
+    padding-left: 40px;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    width: 650px;
+  
+}
+.paragraph{
+    padding-left: 50px;
+    width: 580px;
+    font-size: 16px;
+    
+}
+.row{
+    margin-top: 70px;
+}
+.started{
+    padding: 15px 30px;
+    background-color:#E9204F ;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+
+}
+.started:hover{
+    color:#E9204F;
+    background-color:white;
+}
+.but{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.Text p{
+    width:500px;
+    padding-top: 30px;
+}
+.heading-2 h1{
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+    
+}
+.color p{
+    color:#E9204F;
+    font-size: 18px;
+    font-weight: bold;
+}
+.color h1{
+    font-weight: bold;
+}
+.color{
+    padding-left: 100px;
+}
+.size{
+    width: 600px;
+    height: 400px;
+}
+.space-1{
+    margin-left: 170px;
+
+}
+.big{
+   font-size: 100px;
+   margin-left: -360px;
+   margin-top: 120px;
+   
+
+}
+.big{
+    position: absolute;
+
+}
+.space-1 a{
+    color:white;
+}
+

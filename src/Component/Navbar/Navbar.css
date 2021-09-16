@@ -1,0 +1,55 @@
+
+.navbar{
+    background-color: #FFFFFF;
+    color:black
+}
+
+
+.navbar-brand{
+    color:black;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 60px;
+    
+
+}
+.navbar-brand:hover{
+    color: black;
+}
+
+.margin{
+    margin-left: auto;
+    margin-right: 60px;
+}
+.nav-link{
+    color:black;
+    font-size: 16px;
+    font-weight:bold;
+    float: right;
+    text-decoration: none;
+    margin-left:15px ;
+
+}
+.nav-link:hover{
+    color:black;
+}
+.dropdown-toggle:hover{
+    color: black;
+}
+.fa{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+@media (max-width:768px){
+    .navbar-brand{
+        color:black;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 20px;
+        
+    
+    }
+    
+
+}
