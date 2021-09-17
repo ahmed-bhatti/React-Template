@@ -8,7 +8,7 @@ const Navbar = () => {
   <div class="container-fluid margin-b ">
     <a class="navbar-brand nab" href="#">StudioM4.</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon hi"></span>
     </button>
     <div class="collapse navbar-collapse float-end" id="navbarNavDropdown">
       <ul class="navbar-nav margin  ">

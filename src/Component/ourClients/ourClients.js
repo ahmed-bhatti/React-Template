@@ -1,11 +1,12 @@
 
 import "./ourClients.css";
-import img1 from "../../Asesst/man-310.jpg"
+import img1 from "../../Asesst/office-3.jpg"
 
 const OurClients = () => {
+  
     return (
         <>
-      <div className="container-fluid">
+      <div className="container-fluid hum">
           <div className="row">
               <div className="col-md-4 space">
                   <div className="heading-1">
@@ -39,21 +40,22 @@ const OurClients = () => {
           </div>
           </div>
           <div className="col-md-2 color ">
-              <h1>2842</h1>
+              <h1 className="counter">2842</h1>
               <p>IDEAS</p>
           </div>
           <div className="col-md-2  color">
-              <h1>176</h1>
+              <h1 className="counter">176</h1>
               <p>PROJECTS</p>
           </div>
           <div className="col-md-2 color ">
-              <h1>324</h1>
+              <h1 className="counter">324</h1>
               <p>USERS</p>
           </div>
           </div>
 
       </div>
       </div>
+      
         </>
       );
 }

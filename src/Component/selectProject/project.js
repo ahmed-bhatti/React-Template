@@ -1,11 +1,13 @@
 
 
 
-import img1 from "../../Asesst/website1-736x736.jpg"
-import img2 from "../../Asesst/marketing-736x736.jpg"
-import img3 from "../../Asesst/webdevelopment-736x736.jpg"
 import "./project.css"
+import CardApi from "./cardApi";
+import { useState } from "react";
 const Project = () => {
+
+              const[ApiData,setApidata ]=useState(CardApi)
+              console.log(ApiData)
     return ( 
         <>
         <div className="container">
@@ -13,7 +15,7 @@ const Project = () => {
                <h1> Selected Projects </h1>
             </div>
             <div className="case">
-                Case Studies
+               <p> Case Studies</p>
                 <span> <p className="started btn">View ALL </p></span>
             </div>
                      
@@ -21,28 +23,28 @@ const Project = () => {
         </div>
         <div className="container-fluid">
             <div className="row">
-                <div className="col-md-4">
-                    <img src={img1} className="img-fluid" />
-                    <div className="img-overlay">
-                       <div className="image-title"><h1>Website Design</h1></div>
-                       <div className="image-discription">Personal and Commercial</div> 
-                    </div>
-                </div>
-                <div className="col-md-4">
-                    <img src={img2} className="img-fluid" />
-                    <div className="img-overlay">
-                       <div className="image-title"><h1>Website Design</h1></div>
-                       <div className="image-discription">Personal and Commercial</div> 
-                    </div>
-                </div>
-                <div className="col-md-4">
-                    <img src={img3} className="img-fluid" />
-                    <div className="img-overlay">
-                       <div className="image-title"><h1>Website Design</h1></div>
-                       <div className="image-discription">Personal and Commercial</div> 
-                    </div>
-                </div>
+                {
+                    ApiData.map((ind) =>{
+                        return(
+                            <>
+                                    <div className="col-md-4 marg" key={ind.id}>
+                   <div className="img-area">
+                       <img src={ind.Image} className="img-fluid"></img>
+                       <div className="img-text">
+                           <h3>{ind.work}</h3>
+                           <h5> {ind.discrition}</h5>
+                       </div>
+
+                     
+                  
             </div>
+            </div> 
+                            </>
+                        )
+                    })
+                }
+               
+        </div>
         </div>
         </>
      );

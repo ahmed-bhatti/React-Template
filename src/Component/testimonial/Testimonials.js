@@ -32,7 +32,7 @@ const Testimonial = () => {
                         <span ><i class="fas fa-star-half-alt"></i></span>
                     </div>
                     <div className="text-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper elementum Integer ullamcorper elementum
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper elementum 
                     </div>
                     <div className="d-flex pad">
                     <div className="image-2">

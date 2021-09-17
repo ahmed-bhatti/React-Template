@@ -28,34 +28,51 @@
 .case span{
     padding-left: 870px;
 }
-.img-overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background:rgba(0, 0, 0, 0.6);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: opacity 0.25s;
-    opacity: 0;
-}
-.img-overlay:hover{
-    opacity: 0;
-}
-.img-overlay > * {
-    transform: translateY(20px);
-    transition: transform 0.25s;
-}
-.image-title{
-    font-size: 2em;
-    font-weight: bold;
 
+.img-area{
+    text-align: center;
+    position: relative;
+    color: white;
 }
-.image.discription{
-    font-size: 1.25em;
-    margin-top: 0.25em;
+.img-text, .img-area:after{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.img-area:after{
+    content: "";
+    height: 100%;
+    top: 0;
+    transition: .5s;
+}
+.img-area:hover:after{
+    background:rgba(0, 0, 0, 0.8);
+}
+.img-text{
+    padding:20px ;
+    margin-bottom: 20px;
+    bottom: 0;
+    z-index: 1;
+    transition: all .5s cubic-bezier(.13,.62,.81,.91) 0ss;
+    transform: translateY(145px);
+}
+.img-text h3{
+    font-family: big john;
+    font-weight: bold;
+}
+.img-area:hover .img-text{
+    transform: translateY(0);
+}
+@media (max-width:768px){
+    .case span{
+        margin-left: -870px;
+    }
+    .marg{
+        margin-bottom: 100px;
+        width: 350px;
+    }
+    .selected h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
 }

@@ -1,9 +1,9 @@
 import "./professional.css"
-import picture from "../../Asesst/team2.jpg"
-import picture2 from "../../Asesst/team1.jpg"
-import picture3 from "../../Asesst/team4.jpg"
+import dataPro from "./Datapro";
+import { useState } from "react";
 
 const Professional = () => {
+    const [cardInfor,setcardInfo]=useState(dataPro)
     return ( 
         <>
         <div className="container">
@@ -15,21 +15,32 @@ Voluptatibus commodi laudantium</p>
         </div>
         <div className="container">
             <div className="row">
-                <div className="col-md-4">
+                {
+                    cardInfor.map((info) =>{
+                        return(
+                            <>
+                           <div className="col-md-4  big-2" key={info.id}>
                     <div className="image-0">
-                        <img src={picture} className="img-fluid big-1"></img>
+                        <img src={info.image} className="img-fluid big-1"></img>
+                        <section>
+                        <span className="smith"> {info.name}</span>
+                        <p className="  manager">{info.work}</p>
+                        <div className="icon-9">
+                   <span><i className="fab fa-facebook"></i></span>
+                   <span><i className="fab fa-twitter"></i></span>
+                   <span><i className="fab fa-instagram"></i></span>
+                                        
+               </div>
+                    </section>
                     </div>
+                   
                 </div>
-                <div className="col-md-4">
-                    <div className="image-0">
-                        <img src={picture2} className="img-fluid big-1"></img>
-                    </div>
-                </div>
-                <div className="col-md-4">
-                    <div className="image-0">
-                        <img src={picture3} className="img-fluid big-1"></img>
-                    </div>
-                </div>
+                            </>
+                        )
+                    })
+                }
+          
+               
             </div>
         </div>
         </>

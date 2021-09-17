@@ -63,7 +63,7 @@
 .big{
    font-size: 100px;
    margin-left: -360px;
-   margin-top: 120px;
+   margin-top: 150px;
    
 
 }
@@ -75,3 +75,41 @@
     color:white;
 }
 
+@media (max-width:768px){
+    .heading-1 h1{
+        
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 40px;
+        width: 380px;
+        margin-left:-100 ;
+      
+    }
+    .paragraph{
+        
+        width: 350px;
+        font-size: 16px;
+        margin-left: -39px;
+        
+    } 
+    .hum{
+        display: none;
+    }
+    .size{
+        margin-left: -170px;
+        height: 300px;
+        width: 330px;
+    }
+    .big{
+        font-size: 80px;
+        margin-left: -220px;
+        margin-top: 100px;
+    }
+    .Text p{
+        width:300px;
+        padding-top: 30px;
+        
+    }
+
+
+}

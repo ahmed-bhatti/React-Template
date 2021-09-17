@@ -7,7 +7,7 @@
 .mobi{
     padding-top: 20px;
     padding-left: 90px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 .list a {
    list-style: none;
@@ -25,4 +25,11 @@
 .list a:hover{
   border-bottom: 2px solid #E9204F;
   color:#E9204F ;
+}
+@media (max-width:768px){
+       .list{
+           margin-left: -5px;
+           padding-left: 90px;
+           padding-bottom: 50px;
+       }
 }
