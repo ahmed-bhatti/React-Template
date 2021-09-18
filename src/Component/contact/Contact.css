@@ -93,12 +93,24 @@ textarea:focus{
 }
 @media (max-width:768px){
     .form-9 textarea{
-        width:320px ;
+        width:270px ;
     }
     .form-8 input{
-        width: 320px;
+        width:270px;
     }
     .chal{
         margin-top: 50px;
+    }
+    .text-p{
+        font-size: 10px;
+        width: 280px;
+    }
+    .heading-3 p{
+        font-size: 14px;
+    }
+    .form input{
+        width: 250px;
+        padding-bottom: 40px;
+        margin-bottom: 20px;
     }
 }

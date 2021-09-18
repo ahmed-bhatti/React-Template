@@ -65,7 +65,10 @@
     .color-1{
         margin-left: -10px;
         margin-bottom: 40px;
-        width: 320px;
+        width: 310px;
+    }
+    .Trusting h1{
+        font-size: 25px;
     }
    
 }

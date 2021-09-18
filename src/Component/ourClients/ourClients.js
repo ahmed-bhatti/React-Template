@@ -3,6 +3,27 @@ import "./ourClients.css";
 import img1 from "../../Asesst/office-3.jpg"
 
 const OurClients = () => {
+//     const counters = document.getElementById('#counter');
+  
+
+//    let count = 1
+//     setTimeout(() => {
+//      if (count <1000) {
+//          count++;
+//          counters.innerText=count
+//      }
+   
+//     },2)
+
+
+
+
+
+
+
+
+        
+    
   
     return (
         <>
@@ -40,15 +61,15 @@ const OurClients = () => {
           </div>
           </div>
           <div className="col-md-2 color ">
-              <h1 className="counter">2842</h1>
+              <h1 className="counter"data-taget="499" >390</h1>
               <p>IDEAS</p>
           </div>
           <div className="col-md-2  color">
-              <h1 className="counter">176</h1>
+              <h1 className="counter"   data-taget="279">783</h1>
               <p>PROJECTS</p>
           </div>
-          <div className="col-md-2 color ">
-              <h1 className="counter">324</h1>
+          <div className="col-md-2 color " >
+              <h1 className="counter" data-taget="490" >879</h1>
               <p>USERS</p>
           </div>
           </div>

@@ -27,6 +27,7 @@
 }
 .case span{
     padding-left: 870px;
+    margin-left: 100px;
 }
 
 .img-area{
@@ -69,7 +70,7 @@
     }
     .marg{
         margin-bottom: 100px;
-        width: 350px;
+        width: 330px;
     }
     .selected h1{
         font-size: 25px;
